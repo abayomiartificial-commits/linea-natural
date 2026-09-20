@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="LÍNEA NATURAL — Control & Bienestar. De la naturaleza al producto." />
+    <title>LÍNEA NATURAL — Control & Bienestar</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#hero" aria-label="LÍNEA NATURAL, volver al inicio">
+        <span class="brand-mark" aria-hidden="true">⌁</span>
+        <span><strong>LÍNEA NATURAL</strong><small>CONTROL &amp; BIENESTAR</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#formula">Fórmula</a>
+        <a href="#centella">Centella</a>
+        <a href="#ingredients">Ingredientes</a>
+        <a href="#wellbeing">Bienestar</a>
+        <a href="#final-cta">CTA</a>
+      </nav>
+      <a class="button button--small" href="#formula">Descubre la fórmula</a>
+    </header>
+
+    <main>
+      <section class="hero" id="hero" aria-labelledby="hero-title">
+        <video class="hero-video" autoplay muted loop playsinline preload="metadata" data-hero-video>
+          <source src="assets/hero/hero-naturaleza-producto.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-fallback" aria-hidden="true"></div>
+        <div class="hero-shade"></div>
+        <div class="hero-content reveal">
+          <p class="eyebrow">LÍNEA NATURAL<br />CONTROL &amp; BIENESTAR</p>
+          <h1 id="hero-title">El bienestar nace en la naturaleza.</h1>
+          <p class="hero-subtitle">Una fórmula creada para acompañarte en tu rutina de bienestar.</p>
+          <a class="button button--light" href="#formula">Descubre la fórmula <span aria-hidden="true">↘</span></a>
+        </div>
+        <div class="hero-scroll" aria-hidden="true"><span></span>Desplaza para descubrir</div>
+      </section>
+
+      <section class="section formula" id="formula" aria-labelledby="formula-title">
+        <div class="section-intro reveal">
+          <p class="eyebrow eyebrow--dark">01 / 07 · DESCUBRIMIENTO</p>
+          <h2 id="formula-title">Descubre la fórmula.</h2>
+          <p>Siete ingredientes. Una fórmula pensada desde la naturaleza.</p>
+        </div>
+        <div class="formula-layout">
+          <div class="master-frame reveal">
+            <img src="assets/ingredients/master/ingredients-master.png" alt="Composición visual de los siete ingredientes naturales de LÍNEA NATURAL" loading="lazy" />
+          </div>
+          <div class="ingredient-explorer reveal" aria-label="Explorar ingredientes">
+            <p class="explorer-note">Selecciona un ingrediente para continuar.</p>
+            <div class="ingredient-list">
+              <button type="button" class="ingredient-button" data-ingredient="algas">01 <span>Algas marinas</span><i aria-hidden="true">↗</i></button>
+              <button type="button" class="ingredient-button ingredient-button--active" data-ingredient="centella">02 <span>Centella asiática</span><i aria-hidden="true">↗</i></button>
+              <button type="button" class="ingredient-button" data-ingredient="marrubio">03 <span>Marrubio</span><i aria-hidden="true">↗</i></button>
+              <button type="button" class="ingredient-button" data-ingredient="cajeto">04 <span>Cajeto (Qb)</span><i aria-hidden="true">↗</i></button>
+              <button type="button" class="ingredient-button" data-ingredient="pomelo">05 <span>Pomelo</span><i aria-hidden="true">↗</i></button>
+              <button type="button" class="ingredient-button" data-ingredient="endrino">06 <span>Endrino</span><i aria-hidden="true">↗</i></button>
+              <button type="button" class="ingredient-button" data-ingredient="espirulina">07 <span>Espirulina</span><i aria-hidden="true">↗</i></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="centella" id="centella">
+        <div class="centella-sticky">
+          <div class="centella-heading reveal">
+            <p class="eyebrow eyebrow--dark">02 / 07</p>
+            <p class="centella-kicker">CENTELLA ASIÁTICA</p>
+          </div>
+          <div class="centella-stage" data-centella-stage>
+            <div class="centella-image-wrap">
+              <img class="centella-image" data-centella-image src="assets/ingredients/centella/centella-overview.png" alt="Centella asiática, vista general" />
+            </div>
+            <div class="centella-copy">
+              <p class="centella-progress"><span data-centella-current>01</span> / 05</p>
+              <p class="centella-state" data-centella-state>LA PLANTA</p>
+              <p class="centella-text" data-centella-text>Todo comienza con la planta.</p>
+              <div class="centella-controls">
+                <button type="button" class="round-button" data-centella-prev aria-label="Estado anterior">←</button>
+                <div class="progress-dots" role="tablist" aria-label="Progreso de Centella">
+                  <button type="button" role="tab" aria-label="La planta" aria-selected="true" data-centella-dot="0"></button>
+                  <button type="button" role="tab" aria-label="El detalle" aria-selected="false" data-centella-dot="1"></button>
+                  <button type="button" role="tab" aria-label="El extracto" aria-selected="false" data-centella-dot="2"></button>
+                  <button type="button" role="tab" aria-label="La ciencia" aria-selected="false" data-centella-dot="3"></button>
+                  <button type="button" role="tab" aria-label="En tu fórmula" aria-selected="false" data-centella-dot="4"></button>
+                </div>
+                <button type="button" class="round-button" data-centella-next aria-label="Siguiente estado">→</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="centella-steps" aria-hidden="true">
+          <div data-centella-step="0"></div><div data-centella-step="1"></div><div data-centella-step="2"></div><div data-centella-step="3"></div><div data-centella-step="4"></div>
+        </div>
+      </section>
+
+      <section class="section ingredients" id="ingredients" aria-labelledby="ingredients-title">
+        <div class="section-intro reveal">
+          <p class="eyebrow eyebrow--dark">03 / 07 · CONTINUIDAD</p>
+          <h2 id="ingredients-title">Conoce los demás ingredientes.</h2>
+        </div>
+        <div class="ingredient-cards">
+          <article class="ingredient-card reveal">
+            <figure class="ingredient-card-media"><img src="assets/ingredients/algas/algas-marinas.png" alt="Algas marinas junto al mar y cápsulas de LÍNEA NATURAL" loading="lazy" /></figure>
+            <span>01</span><h3>Algas marinas</h3><p>Del mar, a la fórmula.</p>
+          </article>
+          <article class="ingredient-card reveal">
+            <figure class="ingredient-card-media"><img src="assets/ingredients/marrubio/marrubio.png" alt="Marrubio en un entorno natural con flores y cápsulas de LÍNEA NATURAL" loading="lazy" /></figure>
+            <span>03</span><h3>Marrubio</h3><p>Tradición botánica que acompaña tu día.</p>
+          </article>
+          <article class="ingredient-card reveal">
+            <figure class="ingredient-card-media"><img src="assets/ingredients/cajeto/cajeto.png" alt="Cajeto en un paisaje natural con frutos, flores y cápsulas de LÍNEA NATURAL" loading="lazy" /></figure>
+            <span>04</span><h3>Cajeto (Qb)</h3><p>Una planta de nuestra riqueza natural.</p>
+          </article>
+          <article class="ingredient-card reveal">
+            <figure class="ingredient-card-media"><img src="assets/ingredients/pomelo/pomelo.png" alt="Pomelo y flores de cítrico en un entorno natural con cápsulas de LÍNEA NATURAL" loading="lazy" /></figure>
+            <span>05</span><h3>Pomelo</h3><p>Frescura cítrica de origen natural.</p>
+          </article>
+          <article class="ingredient-card reveal">
+            <figure class="ingredient-card-media"><img src="assets/ingredients/endrino/endrino.png" alt="Endrino con frutos oscuros, flores y cápsulas de LÍNEA NATURAL" loading="lazy" /></figure>
+            <span>06</span><h3>Endrino</h3><p>Un fruto ligado a la tradición botánica.</p>
+          </article>
+          <article class="ingredient-card reveal">
+            <figure class="ingredient-card-media"><img src="assets/ingredients/espirulina/espirulina.png" alt="Espirulina en polvo con hojas y cápsulas de LÍNEA NATURAL" loading="lazy" /></figure>
+            <span>07</span><h3>Espirulina</h3><p>Nutrición verde de origen natural.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="natu section-dark" id="natu" aria-labelledby="natu-title">
+        <div class="natu-copy">
+          <p class="eyebrow natu-reveal">04 / ACOMPAÑAMIENTO</p>
+          <h2 id="natu-title" class="natu-reveal">Hola. Soy Natu.</h2>
+          <p class="natu-support natu-reveal">Estoy aquí para acompañarte a descubrir LÍNEA NATURAL.</p>
+          <p class="natu-descriptor natu-reveal">NATURALEZA · EQUILIBRIO · BIENESTAR</p>
+          <a class="text-link natu-reveal" href="#wellbeing">Continuar el recorrido <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="natu-visual reveal" data-natu-visual aria-label="NATU en un entorno natural">
+          <div class="natu-orbit" aria-hidden="true"><span></span><span></span><span></span></div>
+          <img class="natu-character" src="assets/natu/natu-web-character.png" alt="NATU, guía emocional de LÍNEA NATURAL" loading="lazy" />
+        </div>
+      </section>
+
+      <section class="section wellbeing" id="wellbeing" aria-labelledby="wellbeing-title">
+        <div class="section-intro reveal">
+          <p class="eyebrow eyebrow--dark">05 / 07 · BIENESTAR</p>
+          <h2 id="wellbeing-title">Pequeñas decisiones.<br />Grandes hábitos.</h2>
+        </div>
+        <div class="pillars">
+          <article class="pillar reveal">
+            <span class="pillar-number">01</span>
+            <h3>Natural</h3>
+            <figure class="pillar-media">
+              <img src="assets/benefits/natural.png" alt="Hoja verde cubierta de gotas de rocío sobre la tierra" loading="lazy" />
+            </figure>
+            <p>Una mirada hacia el origen.</p>
+          </article>
+          <article class="pillar reveal">
+            <span class="pillar-number">02</span>
+            <h3>Equilibrio</h3>
+            <figure class="pillar-media">
+              <img src="assets/benefits/equilibrio.png" alt="Hoja sobre una piedra rodeada de agua en calma" loading="lazy" />
+            </figure>
+            <p>Un espacio para escuchar tu ritmo.</p>
+          </article>
+          <article class="pillar reveal">
+            <span class="pillar-number">03</span>
+            <h3>Rutina</h3>
+            <figure class="pillar-media">
+              <img src="assets/benefits/rutina.png" alt="Vaso de agua junto a hojas y cápsulas blancas y verdes" loading="lazy" />
+            </figure>
+            <p>Pequeños hábitos que acompañan.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="routine section-cream" id="routine" aria-labelledby="routine-title">
+        <div class="routine-copy reveal">
+          <p class="eyebrow eyebrow--dark">06 / 07 · RUTINA</p>
+          <h2 id="routine-title">Hazlo parte de tu rutina.</h2>
+          <p>El bienestar también se construye con pequeños hábitos.</p>
+        </div>
+        <div class="routine-experience reveal">
+          <div class="routine-line" aria-label="Progresión de la rutina">
+            <span data-routine-indicator="0" aria-current="step">mañana</span><i aria-hidden="true"></i>
+            <span data-routine-indicator="1">producto</span><i aria-hidden="true"></i>
+            <span data-routine-indicator="2">rutina</span>
+          </div>
+          <div class="routine-stage" aria-live="polite">
+            <figure class="routine-scene is-active" data-routine-state="0">
+              <img src="assets/routine/manana.png" alt="Luz natural de la mañana entre hojas verdes" loading="lazy" />
+            </figure>
+            <figure class="routine-scene" data-routine-state="1">
+              <img src="assets/routine/producto.png" alt="Producto de LÍNEA NATURAL integrado en un entorno natural" loading="lazy" />
+            </figure>
+            <figure class="routine-scene" data-routine-state="2">
+              <img src="assets/routine/rutina.png" alt="Vaso de agua, hojas y cápsulas de LÍNEA NATURAL en un ritual cotidiano" loading="lazy" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust section-dark" id="trust" aria-labelledby="trust-title">
+        <div class="trust-copy reveal">
+          <p class="eyebrow">07 / 07 · CONFIANZA</p>
+          <h2 id="trust-title">Lo natural también puede ser extraordinario.</h2>
+          <div class="trust-list"><p>Fórmula avanzada.</p><p>Presentación cuidada.</p><p>Ingredientes seleccionados.</p></div>
+        </div>
+        <div class="trust-product reveal">
+          <img src="assets/trust/product-hero.png" alt="Botella de LÍNEA NATURAL rodeada de hojas, cápsulas y elementos naturales" loading="lazy" />
+        </div>
+      </section>
+
+      <section class="final-cta" id="final-cta" aria-labelledby="final-cta-title">
+        <div class="final-cta-copy">
+          <p class="eyebrow">LÍNEA NATURAL</p>
+          <h2 id="final-cta-title">Tu bienestar,<br />nuestra naturaleza.</h2>
+          <p>Haz de lo natural parte de tu día.</p>
+          <a class="button button--light" data-whatsapp-cta href="#" aria-label="Hablar por WhatsApp">Hablar por WhatsApp <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="final-cta-visual reveal">
+          <img src="assets/cta/cta-final-master.png" alt="LÍNEA NATURAL en un entorno natural con producto y cápsulas" loading="lazy" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">⌁</span><span><strong>LÍNEA NATURAL</strong><small>CONTROL &amp; BIENESTAR</small></span></div>
+      <nav aria-label="Navegación de footer"><a href="#hero">Inicio</a><a href="#formula">Fórmula</a><a href="#ingredients">Ingredientes</a><a href="#final-cta">CTA</a></nav>
+      <p>Información legal y contacto: pendiente de definición.</p>
+    </footer>
+  </body>
+</html>
